@@ -1,8 +1,8 @@
-    html, body {
+html, body {
     margin: 0;
     padding: 0;
     height: 100%;
-    }
+}
 
 body {
     background-image: url("k.png");
@@ -14,6 +14,7 @@ body {
     justify-content: center;
     flex-direction: column;
 }
+
 .card {
     max-width: 90%;
     width: 340px;
@@ -27,36 +28,43 @@ body {
     flex-direction: column;
     align-items: center;
 }
+
 .card .imgBx {
     width: 180px;
     height: 180px;
     margin-bottom: 20px;
 }
+
 .card .imgBx img {
     width: 100%;
     height: 100%;
     object-fit: cover;
     border-radius: 50%;
 }
+
 .info h3, .info p {
     color: #fff;
     text-align: center;
     margin: 0 10px 10px;
 }
+
 .info h3 {
     font-family: 'Anonymous Pro', monospace;
     font-size: 18px;
 }
+
 .info p {
     font-family: 'Caveat', cursive;
     font-size: 17px;
     line-height: 1.4;
 }
+
 .contact {
     margin-top: 20px;
     display: flex;
     gap: 20px;
 }
+
 .fa {
     font-size: 20px;
     color: white;
@@ -76,44 +84,3 @@ body {
         font-size: 15px;
     }
 }
-
-.btn {
-    text-align: center;
-    text-decoration: none;
-    border-radius: 5px;
-    float: bottom;
-}
-.btn {
-    padding-bottom: auto;
-    margin-bottom: auto;
-    text-decoration: none;
-    text-align: center; 
-    align-items: center;
-    padding: 10px 20px;
-    background-image: url("zz.gif");
-    color: #fff;
-    border-radius: 5px;
-}
-.btn:hover {
-    padding-bottom: auto;
-    margin-bottom: auto;
-    background: #fff;
-    color: #000;
-    border: 1px solid #000;
-    text-decoration: none;
-    border-radius: 5px;
-}
-
-a {color: inherit;}         
-a:visited {color: inherit;}
-a:hover {color: inherit;}  
-a:active {color: inherit;}  
-
-*{
-    -webkit-touch-callout: none;
-    -webkit-user-select: none;
-    -khtml-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
-  }
